@@ -1,0 +1,9 @@
+*.sh
+*.tmp
+tmp/
+*.RData
+*.pdf
+*.Rproj
+.Rproj.user
+scripts/
+test/
