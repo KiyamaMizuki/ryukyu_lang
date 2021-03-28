@@ -55,22 +55,18 @@ docker exec -i -t "コンテナ名" bash
 # 各ファイルの説明
 ```
 ryukyu_lang/
- ├R/
- │├ execution/
- ││  ├ execution_msa.R
- ││  └ execution_psa.R
- ││
- │└ lib/
- ││  └ 割愛
- ││
- │├ README.txt
- │├ install_command.R
- │├ parallel_config.R
- │└ ryukyu.sh
- │ 
- ├ryukyu_lang/
- │ ├
- │ └ 
+ ├ R/
+ │ ├ execution/
+ │ │  ├ execution_msa.R
+ │ │  └ execution_psa.R
+ │ │
+ │ └ lib/
+ │ │  └ 割愛
+ │ │
+ │ ├ README.txt
+ │ ├ install_command.R
+ │ ├ parallel_config.R
+ │ └ ryukyu.sh
  │
  ├ Dockerfile
  ├ default
