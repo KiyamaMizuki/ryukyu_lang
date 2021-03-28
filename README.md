@@ -125,3 +125,4 @@ ryukyu_lang/
  nginxとphp-fpmを起動する処理が書かれています。
  
  ## upload2.php 
+htmlで受け取ったinputファイルをRに渡し結果をブラウザに表示する処理を書いています
