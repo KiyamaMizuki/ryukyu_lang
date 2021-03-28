@@ -15,8 +15,10 @@ Client Version:           20.10.0
 Server Version:           20.10.0
 # インストール
 dockerのインストール
-公式ページからインストールしてください
+公式ページからインストールしてください  
 https://www.docker.com/
+
+## dockerのインストールしたパッケージ
 
 # 実行方法
 ターミナルでこのプロジェクトをダウンロードしたディレクトリに移動して
@@ -64,14 +66,24 @@ ryukyu_lang/
  │ │  └ 割愛
  │ │
  │ ├ README.txt
- │ ├ install_command.R
+ │ ├ install_command.R　☆
  │ ├ parallel_config.R
  │ └ ryukyu.sh
  │
- ├ Dockerfile
- ├ default
- ├ form.html
- ├ input.csv
- ├ start.sh
- └ upload2.php
+ ├ Dockerfile          ☆
+ ├ default             ☆
+ ├ form.html           ☆
+ ├ input.csv           ☆
+ ├ start.sh            ☆
+ └ upload2.php         ☆
  ```
+ ryukyu_lang/R配下は宮城さんの書いてくれた言語解析の為のパッケージです。
+ ☆マークがついてる部分がデフォの設定を変更する為のファイルになります。  
+ 
+ ## install_command.R
+ ## Dockerfile
+ ## default
+ ## form.html
+ ## input.csv 
+ ## start.sh 
+ ## upload2.php 
