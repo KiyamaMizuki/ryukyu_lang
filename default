@@ -38,6 +38,8 @@ server {
         #
         # include snippets/snakeoil.conf;
 
+        fastcgi_read_timeout 3000;
+
         root /var/www/html;
 
         # Add index.php to the list if you are using PHP
