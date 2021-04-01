@@ -7,7 +7,7 @@ root@608fca12053a:/var/www/html/data# cd ../R/
 </head>
 <body>
 <p><?php
-
+set_time_limit(86400);
 date_default_timezone_set('Asia/Tokyo');
 $nowtime = date("Ymd-His");
 shell_exec("mkdir /var/www/html/data/$nowtime");
