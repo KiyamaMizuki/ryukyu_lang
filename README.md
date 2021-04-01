@@ -99,6 +99,7 @@ ryukyu_lang/
  ├ default             ☆
  ├ form.html           ☆
  ├ input.csv           ☆
+ ├ php.ini             ☆
  ├ start.sh            ☆
  └ upload2.php         ☆
  ```
@@ -119,7 +120,16 @@ ryukyu_lang/
  inputファイルをアップロードするページです。
  
  ## input.csv 
- test用のinputファイルです。
+ test用のinputファイルです。  
+ 
+ ## php.ini  
+ php-fpmの設定ファイルです。ここでphpに対する  
+ 1.アップロードできるファイルのサイズの最大値  
+ 2.POSTすることのできるデータの最大値  
+ 3.スクリプトが確保できるメモリの最大値
+ 4.phpの処理の実行時間  
+ を設定しています。
+ またそれぞれ1024M,1024M,1024M,0に設定しています。
  
  ## start.sh 
  nginxとphp-fpmを起動する処理が書かれています。
