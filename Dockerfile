@@ -1,5 +1,7 @@
 # pull ubuntu 20.04 as base image
 FROM ubuntu:20.04
+#dockre containerで使うport
+EXPOSE 80
 
 # update packages
 RUN set -x && \
