@@ -46,7 +46,7 @@ COPY ./default /etc/nginx/sites-enabled/default
 COPY ./form.html /var/www/html/form.html
 COPY ./upload2.php /var/www/html/web/upload2.php
 COPY  ./R/install_command.R /
-COPY ./php.ini /etc/nginx/sites-enabled/default
+COPY ./php.ini /etc/php/7.4/fpm
 RUN Rscript /install_command.R
 RUN rm /install_command.R
 COPY  start.sh  /
